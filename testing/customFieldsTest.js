@@ -40,5 +40,25 @@ module.exports = {
                 .setValue('@newFieldName', data.fieldName)
                 .click('@type4')
                 .click('@active')
+                .waitForElementVisible('@cancel', 5000)
+                .click('@cancel')
+                .waitForElementVisible('@newField', 5000)
+                .click('@newField')
+                .waitForElementVisible('@newFieldName', 5000)
+                .waitForElementVisible('@type4', 5000)
+                .waitForElementVisible('@active', 5000)
+                .setValue('@newFieldName', data.fieldName)
+                .click('@type4')
+                .click('@active')
+                .click('@save')
+                .waitForElementVisible('@testing', 5000)
+
+            //edit custom fields
+                .click('@testing')
+                .clearValue('@newFieldName')
+                .setValue('newFieldName', data.editFieldName)
+                .click('@type2')
+                .click('@save')
+                .waitForElementVisible('@testing')
     }
 }

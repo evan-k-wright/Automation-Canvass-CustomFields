@@ -20,5 +20,21 @@ module.exports = {
             save: 'button',
             type4: 'option[value="checkbox"]',
 
+            //xpath
+                testing: {
+                    selector: '//a[.="Testing"]',
+                    locateStrategy: 'xpath'
+                },
+
+        //edit custom field
+            newFieldName: 'input[name="name"]',
+            type2: 'option[value="textarea"]',
+        
+            //xpath
+                testing: {
+                    selector: '//a[.="Testing"]',
+                    locateStrategy: 'xpath'
+                 },
+
     }
 }
