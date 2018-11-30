@@ -1,0 +1,4 @@
+nightwatch.props.js
+/test_output
+resources
+selenuim-debug.log
