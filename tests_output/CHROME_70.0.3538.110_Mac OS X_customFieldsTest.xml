@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="2"
-            failures="0"
+<testsuites errors="1"
+            failures="1"
             tests="1">
 
   <testsuite name="customFieldsTest"
-    errors="2" failures="0" hostname="" id="" package="customFieldsTest" skipped="0"
-    tests="1" time="14.94" timestamp="Fri, 30 Nov 2018 22:00:01 GMT">
+    errors="1" failures="1" hostname="" id="" package="customFieldsTest" skipped="0"
+    tests="1" time="21.61" timestamp="Fri, 30 Nov 2018 23:10:48 GMT">
   
-    <testcase name="Add Custom Field" classname="customFieldsTest" time="14.94" assertions="19">
+    <testcase name="Add Custom Field" classname="customFieldsTest" time="21.61" assertions="20">
 
     
 
@@ -44,6 +44,8 @@
     
 
     
+
+      <failure message="Timed out while waiting for element &lt;//a[.=&#34;Testing Field Name&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Add Custom Field (/Users/evanwright/Desktop/Automation/salesHub/canvass/canvassCustomFields/testing/customFieldsTest.js:62:18)</failure>
 
     
     </testcase>
@@ -51,20 +53,9 @@
 
   
     <system-err>
-      ERROR: Unable to locate element: &#34;newFieldName&#34; using: css selector
+      ERROR: Unable to locate element: &#34;//input[@name=&#34;name&#34;]&#34; using: css selector
     at Page.setValue (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
     at Object.Add Custom Field (/Users/evanwright/Desktop/Automation/salesHub/canvass/canvassCustomFields/testing/customFieldsTest.js:59:18)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-Error while running waitForElementVisible command: waitForElement expects second parameter to have a global default (waitForConditionTimeout) to be specified if not passed as the second parameter 
-    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.Add Custom Field (/Users/evanwright/Desktop/Automation/salesHub/canvass/canvassCustomFields/testing/customFieldsTest.js:62:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
