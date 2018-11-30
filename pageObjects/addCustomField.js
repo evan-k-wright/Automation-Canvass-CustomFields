@@ -11,6 +11,14 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //custom fields
-            
+            active: 'input[type="checkbox"]',
+            cancel: 'a[class="cancel-button"]',
+            customFieldsTab: 'a[href="/customFields"]',
+            customFieldsTitle: 'h1',
+            newField: 'a[href="/customFields/add"]',
+            newFieldName: 'input[name="name"]',
+            save: 'button',
+            type4: 'option[value="checkbox"]',
+
     }
 }

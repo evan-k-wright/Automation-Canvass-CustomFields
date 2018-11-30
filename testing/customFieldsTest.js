@@ -28,5 +28,17 @@ module.exports = {
                 .click('@canvassApp')
                 .waitForElementVisible('@canvass', 5000)
 
+            //custom fields
+                .waitForElementVisible('@customFieldsTab', 5000)
+                .click('@customFieldsTab')
+                .waitForElementVisible('@customFieldsTitle', 5000)
+                .waitForElementVisible('@newField', 5000)
+                .click('@newField')
+                .waitForElementVisible('@newFieldName', 5000)
+                .waitForElementVisible('@type4', 5000)
+                .waitForElementVisible('@active', 5000)
+                .setValue('@newFieldName', data.fieldName)
+                .click('@type4')
+                .click('@active')
     }
 }
