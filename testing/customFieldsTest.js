@@ -8,7 +8,7 @@ module.exports = {
         browser.end()
     },
 
-    'Add Custom Field': (browser, data) => {
+    'Add Custom Field': (browser) => {
         let addCustomField = browser.page.addCustomField();
         addCustomField.navigate()
             .waitForElementVisible('@companyURL', 5000)
@@ -18,6 +18,7 @@ module.exports = {
             .setValue('@username', data.username)
             .setValue('@password', data.password)
             .waitForElementVisible('@loginButton', 5000)
+            .click('@loginButton')
+            .waitForElementVisible('@salesHub', 5000)
     }
-    
 }
