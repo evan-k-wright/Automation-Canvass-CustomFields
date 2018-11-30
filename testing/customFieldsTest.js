@@ -56,9 +56,9 @@ module.exports = {
             //edit custom fields
                 .click('@testing')
                 .clearValue('@newFieldName')
-                .setValue('newFieldName', data.editFieldName)
-                .click('@type2')
-                .click('@save')
-                .waitForElementVisible('@testing')
+                // .setValue('newFieldName', data.editFieldName)
+                // .click('@type2')
+                // .click('@save')
+                // .waitForElementVisible('@testing')
     }
 }
