@@ -36,5 +36,14 @@ module.exports = {
                     locateStrategy: 'xpath'
                  },
 
+        //delete custom fields
+                 deleteCustomField: 'a[class="delete-item"]',
+        
+            //xpath
+                testingName: {
+                    selector: '//a[.="DVLOP"]',
+                    locateStrategy: 'xpath'
+                 },
+
     }
 }

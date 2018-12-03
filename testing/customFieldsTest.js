@@ -54,8 +54,15 @@ module.exports = {
                 .click('@testing')
                 .clearValue('@newFieldName')
                 .setValue('@editFieldName', data.editFieldName)
-                // .click('@type2')
-                // .click('@save')
-                // .waitForElementVisible('@testingName',5000)
+                .click('@type2')
+                .click('@save')
+                .waitForElementVisible('@testingName',5000)
+
+            //deleteing custom fields
+                .click('@testingName')
+                .waitForElementVisible('@deleteCustonField', 5000)
+                .click('@deleteCustomField')
+                .api.acceptAlert()
+                addCustomField.waitForElementNotVisible('@testingName', 5000)
     }
 }
