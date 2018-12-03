@@ -60,9 +60,9 @@ module.exports = {
 
             //deleteing custom fields
                 .click('@testingName')
-                .waitForElementVisible('@deleteCustonField', 5000)
+                .waitForElementVisible('@deleteCustomField', 5000)
                 .click('@deleteCustomField')
                 .api.acceptAlert()
-                addCustomField.waitForElementNotVisible('@testingName', 5000)
+                addCustomField.waitForElementNotPresent('@testingName', 5000)
     }
 }

@@ -5,9 +5,9 @@
 
   <testsuite name="customFieldsTest"
     errors="1" failures="0" hostname="" id="" package="customFieldsTest" skipped="0"
-    tests="1" time="0.01100" timestamp="Fri, 30 Nov 2018 21:10:57 GMT">
+    tests="1" time="0.01600" timestamp="Mon, 03 Dec 2018 16:01:25 GMT">
   
-    <testcase name="Add Custom Field" classname="customFieldsTest" time="0.01100" assertions="0">
+    <testcase name="Add Custom Field" classname="customFieldsTest" time="0.01600" assertions="0">
     </testcase>
   
 
@@ -15,10 +15,10 @@
     <system-err>
         Error while running [Custom Fields Test / Add Custom Field]:
 
-  Error: customsFieldsTab was not found in &#34;addCustomField&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,customFieldsTab,customFieldsTitle
+  Error: deleteCustonField was not found in &#34;addCustomField&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,active,cancel,customFieldsTab,customFieldsTitle,newField,newFieldName,save,type4,testing,editFieldName,type2,testingName,deleteCustomField
     at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
-    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
-    at Object.Add Custom Field (/Users/evanwright/Desktop/Automation/salesHub/canvass/canvassCustomFields/testing/customFieldsTest.js:33:18)
+    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
+    at Object.Add Custom Field (/Users/evanwright/Desktop/Automation/salesHub/canvass/canvassCustomFields/testing/customFieldsTest.js:63:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

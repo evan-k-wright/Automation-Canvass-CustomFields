@@ -5,9 +5,13 @@
 
   <testsuite name="customFieldsTest"
     errors="0" failures="0" hostname="" id="" package="customFieldsTest" skipped="0"
-    tests="1" time="15.19" timestamp="Mon, 03 Dec 2018 15:46:14 GMT">
+    tests="1" time="16.82" timestamp="Mon, 03 Dec 2018 16:03:13 GMT">
   
-    <testcase name="Add Custom Field" classname="customFieldsTest" time="15.19" assertions="20">
+    <testcase name="Add Custom Field" classname="customFieldsTest" time="16.82" assertions="22">
+
+    
+
+    
 
     
 
