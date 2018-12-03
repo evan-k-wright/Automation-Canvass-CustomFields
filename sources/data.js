@@ -5,7 +5,7 @@ module.exports = {
         password: 'Dvlop-qa',
     
     //custom fields
-        editFieldName: 'Testing Field Name',
+        editFieldName: 'DVLOP',
         fieldName: 'Testing',
 
 }

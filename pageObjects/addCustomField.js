@@ -27,13 +27,12 @@ module.exports = {
                 },
 
         //edit custom field
-            editFieldName:'//input[@name="name"]',
+            editFieldName:'input[name="name"]',
             type2: 'option[value="textarea"]',
         
             //xpath
-
                 testingName: {
-                    selector: '//a[.="Testing Field Name"]',
+                    selector: '//a[.="DVLOP"]',
                     locateStrategy: 'xpath'
                  },
 

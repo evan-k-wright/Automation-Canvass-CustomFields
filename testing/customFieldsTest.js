@@ -2,9 +2,6 @@ const data = require('../sources/data')
 //const functions = require('../sources/functions')
 
 module.exports = {
-    before: browser => {
-        //browser.url('https://admin.saleshub.io/users/login')
-    },
     after: browser => {
         browser
     },
@@ -57,8 +54,8 @@ module.exports = {
                 .click('@testing')
                 .clearValue('@newFieldName')
                 .setValue('@editFieldName', data.editFieldName)
-                .click('@type2')
-                .click('@save')
-                .waitForElementVisible('@testingName',5000)
+                // .click('@type2')
+                // .click('@save')
+                // .waitForElementVisible('@testingName',5000)
     }
 }
